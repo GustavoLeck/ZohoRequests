@@ -16,3 +16,7 @@ func delete() any {
 func update() any {
 	return "update"
 }
+
+func search() any {
+	return "search"
+}
