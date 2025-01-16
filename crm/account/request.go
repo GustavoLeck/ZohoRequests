@@ -1,4 +1,4 @@
-package crm
+package account
 
 //Get is a function that returns the account details
 func read() any {
