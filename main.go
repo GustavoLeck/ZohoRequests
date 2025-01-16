@@ -1,7 +1,10 @@
-package ZohoRequests
+package main
 import "fmt"
 
-func Teste()
+import "github.com/GustavoLecks/ZohoRequests/crm/account"
+
+func main()
 {
+	account.get();
 	fmt.Println("teste")
 }
