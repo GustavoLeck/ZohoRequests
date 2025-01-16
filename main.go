@@ -1,7 +1,7 @@
 package ZohoRequests
 import "fmt"
 
-func teste()
+func Teste()
 {
 	fmt.Println("teste")
 }
