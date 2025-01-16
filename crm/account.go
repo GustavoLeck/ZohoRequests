@@ -17,6 +17,7 @@ func update() any {
 	return "update"
 }
 
+//Busca conta
 func search() any {
 	return "search"
 }
