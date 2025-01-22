@@ -1,0 +1,1 @@
+Repositório de teste para trabalhar com pacotes Go
