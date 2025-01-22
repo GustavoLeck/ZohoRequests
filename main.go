@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/GustavoLeck/ZohoRequests/account"
+	"github.com/GustavoLeck/ZohoRequests/contact"
+)
 
 func main() {
-	fmt.Println("teste")
+	account.Read()
+	contact.Read()
 }
