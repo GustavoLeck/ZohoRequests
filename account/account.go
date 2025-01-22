@@ -1,24 +1,27 @@
 package account
+
 import "fmt"
-//Get is a function that returns the account details
+
+// Get is a function that returns the account details
 func Read() any {
-	fmt.Println("get")
-	return "get"
+	fmt.Println("get account")
+	return "get account"
 }
 func Create() any {
-	fmt.Println("create")
-	return "create"
+	fmt.Println("create account")
+	return "create account"
 }
 func Delete() any {
-	fmt.Println("delete")
-	return "delete"
+	fmt.Println("delet account")
+	return "delete account"
 }
 func Update() any {
-	fmt.Println("update")
-	return "update"
+	fmt.Println("update account")
+	return "update account"
 }
-//Busca conta
+
+// Busca conta
 func Search() any {
-	fmt.Println("saerch")
-	return "search"
+	fmt.Println("saerch account")
+	return "search account"
 }
