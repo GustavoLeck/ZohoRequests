@@ -1,4 +1,4 @@
-package ZohoCrmcontact V2
+package ZohoCrmcontactV2
 
 import "fmt"
 
