@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/GustavoLeck/ZohoRequests/account"
-	"github.com/GustavoLeck/ZohoRequests/contact"
+	"fmt"
+
+	"github.com/GustavoLeck/ZohoRequests/CRM/Account/ZohoCrmAccountV3"
 )
 
 func main() {
-	account.Read()
-	contact.Read()
+	fmt.Println("Teste")
+	ZohoCrmAccountV3.Delete()
 }
