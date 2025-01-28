@@ -1,4 +1,4 @@
-package CrmToken
+package ZohoToken
 
 import (
 	"encoding/json"
