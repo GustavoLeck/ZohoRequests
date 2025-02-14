@@ -14,8 +14,9 @@ func main() {
 
 func HandleRequest() {
 	fmt.Println("Server is running on port 8000")
-	// http.HandleFunc("/", Home)
+	http.HandleFunc("/")
 	http.ListenAndServe(":8000", nil)
+
 }
 
 // func Home(w http.ResponseWriter, r *http.Request) {
