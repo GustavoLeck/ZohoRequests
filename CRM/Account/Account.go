@@ -95,7 +95,7 @@ func Update(version float64, idAccount string, value map[string]interface{}) (*h
 			return nil, err
 		}
 		client := &http.Client{}
-		response, err := client.Do(req)
+		response, err := client.Do(rep)
 		if err != nil {
 			return response, nil
 		}
